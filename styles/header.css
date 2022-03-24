@@ -1,0 +1,145 @@
+
+.logo{
+    width: 8rem;
+    float:left;
+}
+h1{    
+    text-align: center;
+    padding-top: 1rem;
+    margin: 0;
+    font-weight: 700;
+    color: white;
+}
+.idiom-panel{
+    clear: both;
+    margin-top:2rem;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.idiom-icon{
+    width: 2rem;
+    height: 2rem;
+    margin-left:27%;
+}
+.nav{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link,
+.nav-list{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:var(--nav-link-color);
+    font-weight: 700;
+    display: block;
+}
+.nav-list{
+    position: relative;
+}
+.nav-list summary{
+    list-style: none;
+    cursor:pointer;
+}
+.nav-list__container{
+    width: 8rem;
+    position: absolute;
+    padding: 1rem;
+    background: var(--nav-list-container-color);
+    left: -16%;
+    border-radius: 14%;
+}
+.nav-list__container .nav-link{
+    color:var(--sub-nav-link-container-color);
+}
+.nav-list:nth-child(4) > .nav-list__container {
+   
+    left: -105%;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 375px) {
+    .idiom-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+}
+@media only screen and (min-width: 425px) {
+    .logo{
+        width: 11rem;
+    }
+    h1{
+        font-size:2.5rem;        
+        padding-top: 2rem;
+    }
+    .idiom-icon{
+        
+        width: 3rem;
+        height: 3rem;
+    }
+    .nav-list,
+    .nav-link{
+        
+        font-size: 2rem;
+    }
+    .nav-list:nth-child(4) > .nav-list__container{
+        left:-55%;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .nav-link,
+    .nav-list{
+        
+        font-size: 2.5rem;
+    }
+    .nav-list__container{
+        left:-3%;
+        width: 12rem;
+    }
+    .nav-list:nth-child(4) > .nav-list__container {
+        left: -84%;
+    }
+    h1{
+        padding-top: 3.5rem;
+    }
+}
+@media only screen and (min-width:1024px){
+    .logo{
+        width: 16rem;
+    }
+    .nav{
+        justify-content: space-around;
+    }
+    h1{
+        
+        padding-top: 3.5rem;
+        padding-left: 9em;
+        font-size: 3.5em;
+    }
+
+}
+@media only screen and (min-width:2560px){
+    .nav{
+        margin: 4rem 0;
+    }
+    .idiom-icon{
+        
+        width: 10rem;
+        height: 7rem;
+    }
+    .nav-link,
+    .nav-list {
+        font-size: 5.5rem;
+    }
+    .nav-list__container{
+        width: 22rem;
+    }
+    .nav-list:nth-child(4) > .nav-list__container {
+        left: -3%;
+    }
+}

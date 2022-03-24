@@ -1,0 +1,17 @@
+main{
+    
+    width: 90%;
+    margin: 1em auto 0;
+    padding: 1em;
+    background-color: var(--main-bg-color);
+    line-height: 170%;
+
+}
+.paragraph{
+    font-size:115%;
+}
+main>img{
+    
+    width: 100%;
+    height: 10em;
+}

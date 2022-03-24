@@ -1,0 +1,162 @@
+
+.contact-info{
+
+    position: absolute;
+    background-color: #647a7adb;
+    width: 80%;
+    height: 90vh;
+    margin: 10%;
+    top: -4vh;
+    padding:5%;
+    display: none;
+}
+.contact-info p{
+    line-height: 1.2em;
+    font-size: 107%;
+}
+.btn-close{
+
+    background-color: transparent;
+    position: absolute;
+    left: 84%;
+    top: 5%;
+    cursor: pointer;
+    border:0;
+    transform: rotate(45deg);
+}
+.btn-close::before,
+.btn-close::after{
+    content:"";
+    width:.3em;
+    height: 1.5em;
+    background-color: black;
+    position: relative;
+    display: block;
+}
+.btn-close::after{
+    transform: rotate(90deg);
+    top:-1.5em;
+}
+
+.flag-img{
+    width: 50%;
+    margin: -5% 25%;
+}
+.color-blue{
+    color:var(--blue-color);
+}
+@media only screen and (min-width:375px){
+    
+    .contact-info h4{
+        font-size: 150%;
+    }
+}
+@media only screen and (min-width:577px){
+    
+    .flag-img {
+        width: 150px;
+        margin: -5% 27%;
+    }
+}
+@media only screen and (min-width:768px){
+    .contact-info{
+        top:-9vh;
+    }    
+    .flag-img{
+        
+        width: 30%;
+        margin: -5% 35%;
+    }
+}
+@media only screen and (min-width:910px){
+
+    .flag-img {
+        width: 25%;
+        margin: -5% 37.5%;
+    }
+
+}
+@media only screen and (min-width: 1024px){
+    .contact-info{
+        top:-16vh;
+    }  
+    .flag-img {
+        width: 20%;
+        margin: -5% 40%;
+    }
+    .btn-close{
+        
+        left: 90%;
+        top: 8%;
+    }
+    .btn-close::after,
+    .btn-close::before{
+        width: .5em;
+        height: 2em;
+    }
+    .btn-close::after{
+        
+        top: -2em;
+    }
+    .contact-info p {
+        line-height: 1.2em;
+        font-size: 120%;
+        letter-spacing: .03em;
+    }
+    
+    .contact-info h4{
+        font-size: 180%;
+    }
+    
+}
+@media only screen and (min-width: 1084px){
+    .flag-img {
+        width: 20%;
+        margin: -5% 40%;
+    }
+    /* .contact-info{
+        top:-12%;
+    } */
+    .contact-info p{
+        font-size: 125%;
+    }
+
+}
+@media only screen and (min-width: 1440px){
+    
+    .contact-info h4 {
+        font-size: 230%;
+    }
+    .contact-info p{
+        font-size: 150%;
+    }
+}
+@media only screen and (min-width: 2560px){
+    .flag-img {
+        width: 25%;
+        margin: -5% 37.5%;
+    }
+    .contact-info p{
+
+        font-size: 250%;
+    }
+
+    .contact-info h4 {
+        font-size: 400%;
+    }
+    .btn-close::after,
+    .btn-close::before{
+        width: 1.1em;
+        height: 4.5em;
+    }
+    .btn-close::after{
+        top:-4.5em;
+    }
+}
+/*
+
+.flag-img {
+    width: 150px;
+    margin: -5% 27%;
+}
+*/
