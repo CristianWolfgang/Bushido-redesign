@@ -1,6 +1,6 @@
 Options +FollowSymLinks
 RewriteEngine on
 
-RewriteRule ^en$ http://localhost/bushido-1/assets/content-en.html
-RewriteRule ^acerca-de$ http://localhost/bushido-1/acerca-de.html
-RewriteRule ^about$ http://localhost/bushido-1/about.html
+RewriteRule ^en$ http://localhost/bushido-redesign/assets/content-en.html
+RewriteRule ^acerca-de$ http://localhost/bushido-redesign/acerca-de.html
+RewriteRule ^about$ http://localhost/bushido-redesign/about.html
